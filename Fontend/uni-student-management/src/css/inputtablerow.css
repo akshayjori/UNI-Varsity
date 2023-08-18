@@ -1,0 +1,13 @@
+.form-control.invalid {
+  border: solid red 2px;
+}
+
+.error-box {
+  position: absolute;
+  padding: 0 10px 5px 10px;
+  background-color: rgba(253, 0, 0, 0.39);
+  color: rgb(255, 255, 255);
+  margin: 5px 5px;
+  border-radius: 0px 10px 10px 10px;
+  z-index: 1;
+}

@@ -1,0 +1,8 @@
+.modal {
+  padding-top: 100px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: rgb(0, 0, 0, 0.5);
+}

@@ -1,0 +1,30 @@
+.my-container {
+  box-sizing: border-box;
+  padding: 30px 30px 50px 30px;
+  width: 100%;
+  min-height: 83vh;
+}
+
+.back-arrow {
+  font-size: 50px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+.back-arrow:hover {
+  color: rgb(255, 255, 101) !important;
+}
+
+.alert {
+  height: 0px;
+  animation: rev 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+@keyframes rev {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 50px;
+  }
+}

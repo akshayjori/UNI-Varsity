@@ -1,0 +1,20 @@
+.report_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.report_wrapper * {
+  color: aliceblue !important;
+}
+
+.piechart {
+  width: 95%;
+  margin: 10px;
+  padding-top: 10px;
+  box-shadow: black 10px 15px 30px;
+  border-radius: 10px;
+}
+
+.barchart {
+  width: 80%;
+}

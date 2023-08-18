@@ -1,0 +1,55 @@
+.container {
+  box-sizing: border-box;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.687);
+  padding: 50px 60px;
+  margin: auto;
+  display: flex;
+  border-radius: 10px;
+}
+
+.col_left {
+  width: 40%;
+  padding: 0 10px;
+}
+.profile_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.col_right {
+  width: 60%;
+  padding: 0 20px;
+}
+
+.col_right table {
+  width: 80%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0 25px;
+  border: solid rgb(94, 122, 135) 2px;
+  border-radius: 10px;
+  padding: 0 30px;
+}
+
+.dp_actions {
+  margin-top: 50px;
+}
+.dp_actions input {
+  display: none;
+}
+.row1 button,
+.row1 label {
+  margin: 0 10px;
+  padding: 0;
+  width: 40px;
+  height: 42px !important;
+  font-size: 20px;
+}
+
+.col_right button {
+  width: 35%;
+  margin: 20px 10px;
+  padding: 5px 40px;
+}

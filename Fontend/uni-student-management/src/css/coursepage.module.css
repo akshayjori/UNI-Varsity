@@ -1,0 +1,13 @@
+.course_box {
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.course_box h1 {
+  background-color: rgb(185, 206, 225);
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+  border-radius: 10px 10px 0 0;
+}
+.course_box p {
+  padding: 50px;
+}

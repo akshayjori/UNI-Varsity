@@ -1,0 +1,56 @@
+.courses {
+  display: flex;
+  width: 330px;
+  flex-wrap: wrap;
+}
+
+.course {
+  margin: 2px;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.update_row {
+  background-color: rgb(208, 226, 228) !important;
+}
+.update_box {
+  transition: height 1s;
+  display: flex;
+  flex-wrap: wrap;
+  animation: expand 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes expand {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 196px;
+  }
+}
+.left_col,
+.right_col {
+  width: 50%;
+  background-color: #00000000 !important;
+}
+.left_col td,
+.right_col td {
+  border: none;
+}
+
+.select_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 15px;
+}
+.select_label {
+  padding: 5px 0;
+}
+.select {
+  width: 70%;
+  margin: 0 15px;
+}
+.select_wrapper button {
+  width: 15%;
+  margin: auto;
+}

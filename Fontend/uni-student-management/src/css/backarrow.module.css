@@ -1,0 +1,11 @@
+.back_arrow {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  font-size: 50px;
+  color: rgb(10, 63, 80) !important;
+}
+
+.back_arrow:hover {
+  color: yellow !important;
+}

@@ -1,0 +1,69 @@
+.home * {
+  color: #eeeeee;
+  box-sizing: border-box;
+}
+
+.contract-logo {
+  font-size: 40px;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.home tr {
+  display: inline-block;
+  width: 100%;
+}
+
+.column.left {
+  width: 60%;
+}
+
+.column.right {
+  padding-top: 40px;
+  width: 40%;
+}
+
+.column button {
+  font-size: 17px;
+  background: linear-gradient(
+    165deg,
+    rgb(121, 212, 231),
+    rgb(33, 102, 116),
+    rgb(19, 71, 81)
+  );
+  width: 80%;
+  height: 80px;
+  margin: 30px 0;
+  box-shadow: 10px 10px 20px rgb(29, 29, 29);
+  border: 0;
+  color: black;
+  color: rgb(212, 244, 255);
+  font-weight: bold;
+  border-radius: 80px;
+  float: left;
+  margin-left: 5px;
+}
+
+.column button:hover {
+  width: 85%;
+  height: 85px;
+  margin: 27.5px 0px; /* Previous margin - (increase in height/2) */
+  border: 3px solid rgb(255, 255, 101);
+  color: rgb(255, 255, 101);
+  border-radius: 80px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

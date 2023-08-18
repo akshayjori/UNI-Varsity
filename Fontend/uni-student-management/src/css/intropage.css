@@ -1,0 +1,49 @@
+.intropage {
+  box-sizing: border-box;
+  display: flex;
+  width: calc(100% + 60px);
+  height: calc(100vh - 112px);
+  margin: -30px -30px -50px -30px;
+  color: #1e4555;
+}
+
+.intropage h3 {
+  color: #57a9bc;
+}
+.brand-name {
+  color: #3f8ea0;
+}
+
+.left-div {
+  display: flexbox;
+  padding: 40px 80px 40px 60px;
+  width: 35%;
+  height: 100%;
+  background-color: rgb(226, 231, 242);
+}
+.right-div {
+  display: flexbox;
+  height: 100%;
+  width: 65%;
+  /* background-image: url("../img/intro_img_2.jpg"); */
+  background-size: contain;
+  background-color: whitesmoke;
+}
+
+.left-div button {
+  background-color: rgb(226, 231, 242);
+  border-radius: 3px solid #1e4555;
+  width: 80%;
+  margin: 20px auto;
+  height: 50px;
+  font-weight: bold;
+}
+
+.left-div button:hover {
+  background-color: #327887;
+}
+
+.intro-img {
+  width: 100%;
+  height: 100%;
+}

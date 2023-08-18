@@ -1,0 +1,146 @@
+body {
+  /* background-color: #c78e9d !important; */
+  background-color: #d7e0a2 !important;
+  /* background-color: #b5d5c5 !important; */
+}
+
+.google-login {
+  margin-top: 20px;
+  text-align: center;
+}
+.google-login-btn {
+  padding: 0 50px !important;
+}
+
+.login-box {
+  width: 50%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  text-align: left;
+  transition: height 2s;
+}
+
+.login-box .btn {
+  margin-top: 15px;
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+.login-box .btn:after {
+  content: "";
+  background: #0a4848;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 3s;
+}
+.login-box .btn:disabled,
+.login-box .btn:disabled::after {
+  background-color: gray;
+  transition: none;
+}
+
+.login-box .btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+}
+
+.registration-fields {
+  animation: reveal 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: height 2s;
+}
+@keyframes reveal {
+  0% {
+    height: 0px;
+    transform: translate(0, 100%);
+  }
+  100% {
+    height: 172px;
+    transform: translate(0, 0);
+  }
+}
+
+.reveal-box {
+  animation: expand 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes expand {
+  0% {
+    height: 170px;
+  }
+  100% {
+    height: 348px;
+  }
+}
+
+.shrinking-div {
+  animation: shrink 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes shrink {
+  0% {
+    height: 348px;
+  }
+  100% {
+    height: 0px;
+  }
+}
+
+.login-box table {
+  border-collapse: separate;
+  border-spacing: 0 25px;
+  width: 100%;
+  margin: auto;
+}
+
+.login-box .left-col {
+  width: 25%;
+  text-align: left;
+}
+
+.left-span {
+  color: #657b8a;
+  padding-left: 10px;
+}
+.right-span {
+  /* padding-right: 10px; */
+  color: #155fa4;
+  font-weight: 500;
+  float: right;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  margin-bottom: 3px;
+  line-height: 5px;
+  vertical-align: middle;
+}
+
+.otp-verification-div {
+  animation: otpexpand 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes otpexpand {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 38px;
+  }
+}
+.otp-verification-div {
+  display: flex;
+}
+.otp-verification-div button {
+  margin-top: 0 !important;
+}
+.otp-verification-div input {
+  width: 45%;
+  margin: 0 3%;
+}

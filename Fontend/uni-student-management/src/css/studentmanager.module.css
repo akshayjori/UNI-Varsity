@@ -1,0 +1,56 @@
+.all_student_table table {
+  width: 100%;
+}
+
+.all_student_table td {
+  vertical-align: middle;
+}
+
+.all_student_table button {
+  margin: 0px 7px !important;
+  padding: 7px 20px;
+  width: auto;
+}
+
+.col1 {
+  width: 13%;
+}
+.col2 {
+  width: 15%;
+}
+.col3 {
+  width: 20%;
+}
+.col4 {
+  width: 30%;
+}
+.col5 {
+  width: 25%;
+}
+
+.back_arrow {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  font-size: 45px;
+}
+.back_arrow:hover {
+  color: yellow !important;
+}
+.search_bar {
+  height: 65px;
+  /* border-radius: 10px 10px 0 0; */
+}
+.search_box {
+  width: 90% !important;
+  text-align: center;
+}
+.search_bar button {
+  width: 8%;
+}
+.search_icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}

@@ -1,0 +1,74 @@
+.container {
+  /* background-color: aliceblue; */
+  display: flex;
+}
+.left_title,
+.right_title {
+  font-weight: bold;
+}
+
+.left_col,
+.right_col {
+  padding: 40px;
+}
+.left_col {
+  background-color: rgb(185, 211, 214);
+  width: 60%;
+  /* border-radius: 10px 0 0 10px; */
+}
+
+.right_col {
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  border-radius: 0 10px 10px 0;
+}
+
+.course_select_wrapper {
+  /* background-color: antiquewhite; */
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.course_select_card {
+  width: 100%;
+  height: 100px;
+  padding: 20px 40px;
+  margin: 5px auto;
+  display: table;
+  box-shadow: rgb(60, 60, 60) 5px 7px 10px;
+  cursor: pointer;
+}
+.course_name {
+  display: table-cell;
+  vertical-align: middle;
+  width: 90%;
+}
+.course_select_card h1 {
+  font-weight: bold;
+  color: rgb(9, 44, 53);
+}
+.course_select_card p {
+  margin: 0;
+}
+
+.ok_tick {
+  width: 60px;
+  height: 60px;
+  margin: 5px 0;
+  position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.left_col table {
+  width: 100%;
+}
+
+.pay_btn {
+  margin-top: 30px;
+  padding: 10px 60px;
+  border-radius: 30px;
+}
